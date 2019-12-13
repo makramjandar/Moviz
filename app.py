@@ -88,7 +88,7 @@ def getDirectors(Genre):
         f'''
         SELECT DISTINCT [Director]
         FROM [tvfBI]()
-        WHERE Genre LIKE '{Genre}'
+        WHERE Genre='{Genre}'
         '''
     )
     Directors = fetchData(directorsQuery)
@@ -213,7 +213,7 @@ app.layout = html.Div([
             className='six columns'
         ),
 
-        # director Summary Table and Graph
+        # gender Summary Table and Graph
         html.Div([
             # summary table
             dcc.Graph(id='directorSummary'),
