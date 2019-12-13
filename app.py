@@ -97,7 +97,7 @@ def getDirectors(Genre):
 
 
 def getMovies(Genre, Director):
-    '''Returns all movies playing in the genre in the Director'''
+    '''Returns all movies'''
 
     moviesQuery = (
         f'''
@@ -128,7 +128,7 @@ def getActorResults(Genre, Director, Movie):
     return actorResults
 
 
-def calculateDirectorSummary(results):
+def calculateGenderSummary(results):
     record = results.groupby(by=['Gender'])['Year'].count()
     summary = pd.DataFrame(
         data={
@@ -146,7 +146,7 @@ def calculateDirectorSummary(results):
 #----------------------------------------------------------------------------------
 
 def generateTable(dataframe, max_rows=10):
-    '''Given dataframe, return template generated using Dash components
+    '''Return template generated using Dash components
     '''
     return html.Table(
         # Header
@@ -273,7 +273,7 @@ def loadActorResults(Genre, Director, Movie):
     return generateTable(results, max_rows=50)
 
 
-# Update director Summary Table
+# Update Gender Summary Table
 @app.callback(
     Output(component_id='directorSummary', component_property='figure'),
     [
@@ -282,7 +282,7 @@ def loadActorResults(Genre, Director, Movie):
         Input(component_id='movie-selector', component_property='value')
     ]
 )
-def loadDirectorSummary(Genre, Director, Movie):
+def loadGenderSummary(Genre, Director, Movie):
     results = getActorResults(Genre, Director, Movie)
 
     table = []
