@@ -41,19 +41,18 @@ cnx = pyodbc.connect(
 #----------------------------------------------------------------------------------
 # App config
 #----------------------------------------------------------------------------------
-app = dash.Dash(__name__)
-server = app.server
+
+app = dash.Dash()
+#app = dash.Dash(__name__)
+#server = app.server
 app.config['suppress_callback_exceptions']=True
 
 app.css.config.serve_locally = False
-app.scripts.config.serve_locally = False
-
-
 external_css = ["https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css"]
 for css in external_css:
     app.css.append_css({"external_url": css})
 
-
+app.scripts.config.serve_locally = False
 #external_js = ['https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js']
 #for js in external_js:
 #    app.scripts.append_script({'external_url': js})
@@ -295,5 +294,13 @@ def loadDirectorSummary(Genre, Director, Movie):
     return table
 
 
+# start Flask server
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(
+        debug=True,
+        host='0.0.0.0',
+        port=8050
+    )
+
+#if __name__ == '__main__':
+#    app.run_server(debug=True)
