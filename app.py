@@ -38,6 +38,25 @@ cnx = pyodbc.connect(
     driver=az.driver,
     Mars_Connection=az.con
 )
+#----------------------------------------------------------------------------------
+# App config
+#----------------------------------------------------------------------------------
+app = dash.Dash(__name__)
+server = app.server
+app.config['suppress_callback_exceptions']=True
+
+app.css.config.serve_locally = False
+app.scripts.config.serve_locally = False
+
+
+external_css = ["https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css"]
+for css in external_css:
+    app.css.append_css({"external_url": css})
+
+
+#external_js = ['https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js']
+#for js in external_js:
+#    app.scripts.append_script({'external_url': js})
 
 #----------------------------------------------------------------------------------
 # Model - Data Manipulation
@@ -149,28 +168,6 @@ def onLoadGenreOptions():
          for Genre in getGenres()]
     )
     return genre_options
-
-app = dash.Dash(__name__)
-server = app.server
-app.config['suppress_callback_exceptions']=True
-
-app.css.config.serve_locally = False
-app.scripts.config.serve_locally = False
-
-
-external_css = ["https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css"]
-for css in external_css:
-    app.css.append_css({"external_url": css})
-
-
-#external_js = ['https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js']
-#for js in external_js:
-#    app.scripts.append_script({'external_url': js})
-
-colors = {
-    'background': '#111111',
-    'text': '#7FDBFF'
-}
 
 app.layout = html.Div([
     
