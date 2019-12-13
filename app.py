@@ -42,9 +42,9 @@ cnx = pyodbc.connect(
 # App config
 #----------------------------------------------------------------------------------
 
-app = dash.Dash()
-#app = dash.Dash(__name__)
-#server = app.server
+#app = dash.Dash()
+app = dash.Dash(__name__)
+server = app.server
 app.config['suppress_callback_exceptions']=True
 
 app.css.config.serve_locally = False
@@ -294,13 +294,5 @@ def loadDirectorSummary(Genre, Director, Movie):
     return table
 
 
-# start erver
 if __name__ == '__main__':
-    app.run_server(
-        debug=False,
-        host='0.0.0.0',
-        port=8050
-    )
-
-#if __name__ == '__main__':
-#    app.run_server(debug=True)
+    app.run_server(debug=True)
