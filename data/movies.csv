@@ -1,40 +1,3 @@
-id,name,year,rank
-10920,Aliens,1986,8,1999999999999993
-17173,Animal House,1978,7,5
-18979,Apollo 13,1995,7,5
-30959,Batman Begins,2005,
-46169,Braveheart,1995,8,3000000000000007
-109093,Fargo,1996,8,1999999999999993
-111813,Few Good Men, A,1992,7,5
-112290,Fight Club,1999,8,5
-116907,Footloose,1984,5,7999999999999998
-124110,Garden State,2004,8,3000000000000007
-130128,Godfather, The,1972,9
-147603,Hollow Man,2000,5,2999999999999998
-167324,JFK,1991,7,7999999999999998
-176711,Kill Bill: Vol. 1,2003,8,4000000000000004
-176712,Kill Bill: Vol. 2,2004,8,1999999999999993
-192017,Little Mermaid, The,1989,7,2999999999999998
-194874,Lost in Translation,2003,8
-207992,Matrix, The,1999,8,5
-210511,Memento,2000,8,6999999999999993
-224842,Mystic River,2003,8,0999999999999996
-237431,O Brother, Where Art Thou?,2000,7,7999999999999998
-238072,Ocean's Eleven,2001,7,5
-238695,Office Space,1999,7,5999999999999996
-254943,Pi,1998,7,5
-256630,Pirates of the Caribbean,2003,
-257264,Planes, Trains & Automobiles,1987,7,2000000000000002
-267038,Pulp Fiction,1994,8,6999999999999993
-276217,Reservoir Dogs,1992,8,3000000000000007
-297838,Shawshank Redemption, The,1994,9
-300229,Shrek,2001,8,0999999999999996
-306032,Snatch.,2000,7,9000000000000004
-313459,Star Wars,1977,8,8000000000000007
-314965,Stir of Echoes,1999,7
-333856,Titanic,1997,6,9000000000000004
-344203,UHF,1989,6,5999999999999996
-350424,Vanilla Sky,2001,6,9000000000000004
 id;first_name;last_name;gender;film_count
 933;Lewis;Abernathy;M;1
 2547;Andrew;Adamson;M;1
@@ -381,7 +344,7 @@ id;first_name;last_name;gender;film_count
 127881;Barry;Dowden;M;1
 128274;Brian;Doyle-Murray;M;1
 128379;Austin;Drage;M;1
-129545;François;du Bois;M;1
+129545;FranÃ§ois;du Bois;M;1
 130410;Todd;Duffey;M;1
 130426;Shay;Duffin;M;1
 130918;John (I);Dullaghan;M;1
@@ -425,8 +388,8 @@ id;first_name;last_name;gender;film_count
 146642;Hugh;Feagin;M;1
 146792;John;Fedevich;M;1
 146916;Russ;Fega;M;1
-147343;José;Feliciano;M;1
-148581;Jorge (II);Fernández;M;1
+147343;JosÃ©;Feliciano;M;1
+148581;Jorge (II);FernÃ¡ndez;M;1
 149274;Martin;Ferrero;M;1
 149545;John;Ferus;M;1
 150046;Christopher John;Fields;M;2
@@ -467,7 +430,7 @@ id;first_name;last_name;gender;film_count
 160178;Barry;Friedman;M;1
 161529;Takashi (I);Fujii;M;1
 162318;Stephen;Furst;M;1
-162721;Thomas;Füri;M;1
+162721;Thomas;FÃ¼ri;M;1
 163352;Ted;Gagliano;M;1
 163629;Corrado;Gaipa;M;1
 163807;Michael;Galasso;M;1
@@ -543,7 +506,7 @@ id;first_name;last_name;gender;film_count
 185071;Laurence R.;Griffin;M;1
 185657;Joe Lo;Grippo;M;1
 185823;Robert J.;Groden;M;1
-185836;Max;Grodénchik;M;1
+185836;Max;GrodÃ©nchik;M;1
 185960;Andrei;Gromyko;M;1
 186293;Sonny;Grosso;M;1
 186528;Gary;Grubbs;M;1
@@ -1019,7 +982,7 @@ id;first_name;last_name;gender;film_count
 352931;Kenji;Ohba;M;1
 353175;Yuji;Okabe;M;1
 353656;Gary;Oldman;M;2
-354484;Bjørn (I);Olsen;M;1
+354484;BjÃ¸rn (I);Olsen;M;1
 354791;Willem;Oltmans;M;1
 356562;Louis;Ortiz;M;1
 356699;Bob;Orwig;M;1
@@ -1097,7 +1060,7 @@ id;first_name;last_name;gender;film_count
 384513;John;Pungitore;M;1
 384778;Jack;Purvis;M;1
 384898;Duncan;Putney;M;1
-385452;Miguel (I);Pérez;M;1
+385452;Miguel (I);PÃ©rez;M;1
 385663;Shaobo;Qin;M;1
 385911;Van;Quattro;M;1
 386627;Luke;Quinton;M;1
@@ -1165,7 +1128,7 @@ id;first_name;last_name;gender;film_count
 406571;Michael;Rooker;M;1
 406711;Stephen (I);Root;M;2
 406907;Thomas;Rosales Jr.;M;1
-406968;José Ramón;Rosario;M;1
+406968;JosÃ© RamÃ³n;Rosario;M;1
 406971;Marcio;Rosario;M;1
 407154;Jim (I);Rose;M;1
 407308;Johnny;Roselli;M;1
@@ -1196,7 +1159,7 @@ id;first_name;last_name;gender;film_count
 418701;Jonathan;Sanger;M;1
 420051;Oren;Sarch;M;1
 420479;Peter;Sarsgaard;M;1
-420990;Sakichi;Satô;M;1
+420990;Sakichi;SatÃ´;M;1
 421660;Joe;Savino;M;1
 422368;Jeffrey;Scaperrotta;M;1
 422784;Steven I.;Schafer;M;1
@@ -1315,8 +1278,8 @@ id;first_name;last_name;gender;film_count
 462473;Tom;Sylla;M;1
 462628;The Great John;Sypolt;M;1
 462782;Peter;Szakacs;M;1
-462918;Béla;Szedlák;M;1
-462919;Ferenc;Szedlák;M;1
+462918;BÃ©la;SzedlÃ¡k;M;1
+462919;Ferenc;SzedlÃ¡k;M;1
 464470;Gary;Taggart;M;1
 464554;John;Taheny;M;1
 464555;Michael;Taheny;M;1
@@ -1374,7 +1337,7 @@ id;first_name;last_name;gender;film_count
 483095;Charles;Tyner;M;1
 484554;Morgan (I);Upton;M;1
 484826;Vern;Urich;M;1
-484994;Saro;Urzì;M;1
+484994;Saro;UrzÃ¬;M;1
 486314;David;Valenza;M;1
 488059;Brian;Van Kay;M;1
 488446;Robin;Van Sharner;M;1
@@ -1394,7 +1357,7 @@ id;first_name;last_name;gender;film_count
 496708;Martin;von Haselberg;M;1
 496736;Walter;von Huene;M;1
 496762;Ronald;von Klaussen;M;1
-497962;Francisco;Váldez;M;1
+497962;Francisco;VÃ¡ldez;M;1
 498433;Henry M.;Wade;M;1
 498580;Rowland;Wafford;M;1
 498933;Robert;Wahlberg;M;1
@@ -1580,11 +1543,11 @@ id;first_name;last_name;gender;film_count
 589421;Alice Marie;Crowe;F;1
 589427;Cindy;Crowe;F;1
 589608;Lucia;Cruz Marroquin;F;1
-589713;Penélope;Cruz;F;1
+589713;PenÃ©lope;Cruz;F;1
 590235;Wilma Jeanne;Cummins;F;1
 590723;Sorcha;Cusack;F;1
 591697;Monica M.;Da Silva;F;1
-592087;Yû;Daiki;F;1
+592087;YÃ»;Daiki;F;1
 593617;Jennifer;Darling;F;1
 594265;Lolita;Davidovich;F;1
 594542;Allison Pratt;Davis;F;1
@@ -1594,7 +1557,7 @@ id;first_name;last_name;gender;film_count
 596738;Maria;de Lourdes Lombera;F;1
 596862;Maria;de Medeiros;F;1
 597426;Ruth;de Sosa;F;1
-599020;Maria;Del Rosario Gutiérrez;F;1
+599020;Maria;Del Rosario GutiÃ©rrez;F;1
 600416;Katherine;Denning;F;1
 600417;Natalie (I);Denning;F;1
 602370;Cameron;Diaz;F;2
@@ -1653,7 +1616,7 @@ id;first_name;last_name;gender;film_count
 636304;Barbara (II);Gordon;F;1
 636338;Denni;Gordon;F;1
 636385;Joanne;Gordon;F;1
-636657;Eydie;Gormé;F;1
+636657;Eydie;GormÃ©;F;1
 637412;Melissa Renee;Graehl;F;1
 638626;Ari;Graynor;F;1
 639326;Julie;Gregg;F;1
@@ -1843,7 +1806,7 @@ id;first_name;last_name;gender;film_count
 773694;Thea;Rose;F;1
 774281;Soara-Joy;Ross;F;1
 774501;Emmy;Rossum;F;1
-775939;Kristin;Rudrüd;F;1
+775939;Kristin;RudrÃ¼d;F;1
 776683;Lucy;Russell;F;1
 776772;Zabeth;Russell;F;1
 777168;Jeri;Ryan;F;1
