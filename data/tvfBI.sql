@@ -1,4 +1,4 @@
-USE [orange_azure]
+USE [azure]
 GO
 /****** Object:  UserDefinedFunction [dbo].[tvfBI]    Script Date: 16/12/2019 02:29:54 ******/
 SET ANSI_NULLS ON
@@ -6,7 +6,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 -- =============================================
--- Author:		Makram Jandar
+-- Author: Makram Jandar
 -- Create date: 13/12/2019 16:21:06
 -- Description:	BI Function
 -- =============================================
